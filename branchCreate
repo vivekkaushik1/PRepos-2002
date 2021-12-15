@@ -15,5 +15,9 @@ do
   echo $string
   x=$(( $x + 1 ))
   sh ./createCOmmit.sh
+  rm -rf random*
+  git add .
+  git commit -m "SDDD"
+  git push
 done
 
