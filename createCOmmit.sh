@@ -7,6 +7,5 @@ do
  echo $string
  eval "$string"
  x=$[$x+1]
-sleep 5.0
 done
 git push
